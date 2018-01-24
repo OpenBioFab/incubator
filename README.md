@@ -21,7 +21,7 @@ Contributor: Luis FLores (lefolindo@gmail.com)
 Same as the original except:
 
 * 2 x 18k (5w) for 220v in Peru. Instead of 15k resistors.
-* 1 x D1Robot LCD Keypad Shield For Arduino with this library [https://github.com/dzindra/LCDKeypad]: https://github.com/dzindra/LCDKeypad. Insted of Olimex LCD Shield.
+* 1 x D1Robot LCD Keypad Shield For Arduino with this library: https://github.com/dzindra/LCDKeypad. Insted of Olimex LCD Shield.
 * 1 x Max6675 thermocouple Arduino module. Instead of Adafruit Max31855 thermocouple amplifier.
 
 
