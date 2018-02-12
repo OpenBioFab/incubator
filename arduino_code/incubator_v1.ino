@@ -134,11 +134,11 @@ void loop() {
   Serial.println(i);
   
   OCR1A = i;  //set the compare register brightness desired.
-  delay(400);
+  delay(500);
 }
 
 void listenButtons() {
-  switch (lcd.buttonBlocking()) {
+  switch (lcd.buttonBlocking(100, 100)) {
     case KEYPAD_LEFT:
       setPoint_temp--;
       setPoint = setPoint_temp;
